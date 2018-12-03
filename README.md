@@ -96,14 +96,14 @@ The `(venv)` at the prompt is a visual indicator that the virtual environment is
 (venv) > pip install fhirtordf
 ...
 (venv) >
-(venv) > firtordf -v
+(venv) > fhirtordf -v
 FHIR to RDF Conversion Tool -- Version 0.1.0
 (venv) >
 ```
 
 #### Option 2: Installation from github image
 ```text
-(venv) get clone https://github.com/BD2KOnFHIR/fhirtordf.git
+(venv) git clone https://github.com/BD2KOnFHIR/fhirtordf.git
 ...
 (venv) > cd fhirtordf
 (venv) > pip install -e .      <-- Don't forget the '.'
